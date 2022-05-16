@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Barlow';
+    font-weight: lighter;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-right: 10px;
+    margin-left: 10px;
+    border-bottom: 1px solid rgba(202, 196, 196, 0.445);
+}
+
+hr{
+    width: 100%;
+    color: #dddddd;
+}
+
+.buttons a{
+    text-decoration: none;
+}
+
+.green, .blue{
+    font-weight: bold;
+}
+
+.green{
+    color: rgb(105, 150, 112);
+}
+
+.blue{
+    color: rgb(112, 153, 207);
+}
+
+.img{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 100px;
+    
+    color: white;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.vert-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-container{
+    height: fit-content;
+    text-align: center;
+}
+
+.part{
+    width: 90%;
+}
+
+.act{
+    width: 85%;
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.itm{
+    min-width: 100%;
+    height: fit-content;
+    padding-top: 0;
+    justify-content: baseline;
+    
+}
+
+.itm h1{
+    width: 100%;
+    height: 400px;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: 50px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.kara{
+    background-image: url('/ressources/kara.webp');
+}
+
+.danse{
+    background-image: url('/ressources/danse.jpg');
+}
+
+.mime{
+    background-image: url('/ressources/mime.webp');
+}
+
+.itm a{
+    font-size: 20px;
+}
+
+form{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.fields{
+    width: 100%;
+    height: 55px;
+    font-size: 15px;
+}
+
+.valid{
+    width: 60%;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: rgb(113, 138, 170);
+    border: none;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 100px;
+}
+
+footer h2 {
+    font-size: smaller;
+}
+
+h2 a{
+    text-decoration: underline;
+}
+
